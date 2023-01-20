@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: Poppins;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .container {
+    padding: 0 50px
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 25px
+  }
+}
+
+.content{
+  @apply bg-bg;
+  &_part{
+      @apply grid grid-cols-12 md:gap-10  justify-between lg:pt-[220px];
+  }
+}
