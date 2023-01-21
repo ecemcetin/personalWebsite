@@ -1,9 +1,9 @@
-.socialMedias{
-    --tw-bg-opacity: 1;
-    background-color: rgb(33 36 37/var(--tw-bg-opacity));
-    @apply rounded px-[12px] py-[5px] ml-[10px];
+.socialMedias {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 36 37 / var(--tw-bg-opacity));
+  @apply rounded px-[12px] py-[5px] ml-[10px];
 }
 
-.infoBox{
-    @apply p-7 rounded-2xl mt-7  bg-[#F3F6F6] dark:bg-[#1D1D1D];
+.infoBox {
+  @apply p-7 rounded-2xl mt-7  bg-[#F3F6F6] dark:bg-[#1D1D1D];
 }
